@@ -1,10 +1,8 @@
-a = 3
-b = 5
+a =int(input("enter a number"))
+b = int(input("enter a number"))
+c = int(input("enter a number"))
 
-a = a+b #8
-b = a-b #3
-a = a-b #5
+print("actual numbers",a,b,c)
 
-
-print(a)
-print(b)
+a,b,c=b,c,a
+print("numbers after swapping",b,c,a)
